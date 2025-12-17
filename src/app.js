@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/namaste', (req, res) => {
-    res.send('Namaste!');
+    res.send({'first name': 'alziyan', 'last name': 'ansari'});
 }); 
 
 app.listen(3000, () => {
