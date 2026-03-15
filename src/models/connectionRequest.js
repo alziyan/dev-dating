@@ -22,7 +22,7 @@ const connectionRequestSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// ConnectionRequest.find({fromUserId: 273478465864786587, toUserId: 273478465864786587})
+// ConnectionRequest.find({fromUserId: 273478465864786587, toUserId: 2734784658647874873646587})
 
 connectionRequestSchema.index({ fromUserId: 1, toUserId: 1 });
 
